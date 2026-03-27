@@ -11,7 +11,7 @@ permissions:
 env:
   NODE_VERSION: 20
   REGISTRY: docker.io
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/notes-app-api
+  IMAGE_NAME: vladyslavynov/notes-app
   PORT: 3000
   DB_HOST: ${{ secrets.DB_HOST }}
   DB_PORT: ${{ secrets.DB_PORT }}

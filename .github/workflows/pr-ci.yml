@@ -37,7 +37,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      # Optionnel: ajouter un linter pour renforcer la qualité
-      # - name: Run linter
-      #   run: npm run lint
