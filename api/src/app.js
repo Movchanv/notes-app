@@ -135,6 +135,7 @@ export function createApp({ pool }) {
     res.status(204).send();
   });
 
+
   // =======================
   // Not found handler
   // =======================
@@ -142,6 +143,7 @@ export function createApp({ pool }) {
   app.use((req, res) => {
     res.status(404).json({ error: "Endpoint not found" });
   });
+  
 
   return app;
 }
