@@ -1,5 +1,7 @@
 # notes-app
 
+# Fait par Movchan Vladyslav
+
 ## 🚀 Release Process
 
 This project follows a strict versioning and release workflow to ensure traceability and reproducibility.
